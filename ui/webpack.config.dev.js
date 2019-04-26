@@ -50,7 +50,7 @@ module.exports = {
         new CopyWebpackPlugin([
             {
                 from: './src/.ico',
-                to: 'thingsboard.ico'
+               
             },
             {
                 from: './src/app/locale',
@@ -64,8 +64,7 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin(),
         new HtmlWebpackPlugin({
             template: './src/index.html',
-            filename: 'index.html',
-            title: 'ThingsBoard',
+            filename: 'index.html'
             inject: 'body',
         }),
         new StyleLintPlugin(),
