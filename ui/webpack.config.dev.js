@@ -49,7 +49,7 @@ module.exports = {
         }),
         new CopyWebpackPlugin([
             {
-                from: './src/thingsboard.ico',
+                from: './src/.ico',
                 to: 'thingsboard.ico'
             },
             {
